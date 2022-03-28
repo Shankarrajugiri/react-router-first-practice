@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write your CSS code here */
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.route-container {
+  background-color: #ffffff;
+  border: 3px solid #12022f;
+  border-radius: 8px;
+  height: 80%;
+  width: 60%;
+}
+@media (max-width: 767px) {
+  .route-container {
+    border: 3px solid #12022f;
+    border-radius: 8px;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
